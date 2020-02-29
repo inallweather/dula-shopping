@@ -31,16 +31,15 @@
 
 {% block main %}
     <div class="box-header" style="overflow: hidden;">
-        <form class="form-inline" method="post" action="#">
+        <form class="form-inline" method="post" action="{{ url_for('admin.cates_view') }}">
             <div class="form-group">
                 <label class="sr-only" for="cate_name"></label>
                 <div class="input-group">
-                    <div class="input-group-addon">类别名称</div>
-                    <input type="text" class="form-control" id="cate_name" placeholder="" name="category_name">
+                    <input type="text" class="form-control" id="cate_name" placeholder="类别名称" name="category_name">
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a href="#" class="btn btn-primary pull-right">类别添加</a>
+            <a href="{{ url_for('admin.cate_add') }}" class="btn btn-primary pull-right">类别添加</a>
         </form>
     </div>
     <div class="box-body">
@@ -58,8 +57,8 @@
                     <td class="text-center">{{ category.category_name }}</td>
                     <td class="text-center">{{ category.category_code }}</td>
                     <td class="text-center operator">
-                        <a href="#">编辑</a>
-                        <a href="#">删除</a>
+                        <a href="{{ url_for('admin.cate_update',cate_id=category.id) }}">编辑</a>
+                        <a href="{{ url_for('admin.cate_delete',cate_id=category.id) }}">删除</a>
                     </td>
                 </tr>
             {% else %}

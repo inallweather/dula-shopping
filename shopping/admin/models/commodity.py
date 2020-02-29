@@ -36,4 +36,4 @@ class Commodity(db.Model):
     # 商品备注
     remark = db.Column(db.String(200))
 
-    photos = db.relationship('Photo', backref='good', lazy='dynamic')
+    photos = db.relationship('Photo', backref='commodity', lazy='dynamic')

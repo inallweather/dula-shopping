@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="" />
+    <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shopping/admin/templates/category/cate_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/admin/templates/category/cate_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/admin/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/forms/category_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/forms/category_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/models/commodity.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/models/commodity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/category/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/views/category_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/category_view.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YNADuJL0qgKWRLNdprpKLDsJf2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,23 +39,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping/admin/views" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping/admin/templates/category" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shopping/admin/views" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/customer" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/order" />
-      <recent name="$PROJECT_DIR$/shopping/admin/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shopping/web" />
       <recent name="$PROJECT_DIR$/shopping/admin" />
       <recent name="$PROJECT_DIR$/shopping/admin/templates" />
       <recent name="$PROJECT_DIR$/shopping/static/libs/bootstrap" />
       <recent name="$PROJECT_DIR$/shopping/static/libs/adminlte" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/category" />
+      <recent name="$PROJECT_DIR$/shopping/admin/views" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/customer" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/order" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,6 +118,7 @@
       <workItem from="1582865656276" duration="1811000" />
       <workItem from="1582868100137" duration="1754000" />
       <workItem from="1582951870762" duration="4386000" />
+      <workItem from="1582968166605" duration="5879000" />
     </task>
     <servers />
   </component>
@@ -115,42 +130,42 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="539" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1044@0.23.1792.1044" timestamp="1582800604128" />
-    <state width="1736" height="171" key="GridCell.Tab.0.bottom" timestamp="1582955880665">
+    <state width="1736" height="171" key="GridCell.Tab.0.bottom" timestamp="1582985738711">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880665" />
-    <state width="1736" height="171" key="GridCell.Tab.0.center" timestamp="1582955880665">
+    <state width="1736" height="171" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738711" />
+    <state width="1736" height="171" key="GridCell.Tab.0.center" timestamp="1582985738710">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880665" />
-    <state width="1736" height="171" key="GridCell.Tab.0.left" timestamp="1582955880665">
+    <state width="1736" height="171" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738710" />
+    <state width="1736" height="171" key="GridCell.Tab.0.left" timestamp="1582985738710">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880665" />
-    <state width="1736" height="171" key="GridCell.Tab.0.right" timestamp="1582955880665">
+    <state width="1736" height="171" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738710" />
+    <state width="1736" height="171" key="GridCell.Tab.0.right" timestamp="1582985738710">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880665" />
-    <state width="1736" height="171" key="GridCell.Tab.1.bottom" timestamp="1582955880574">
+    <state width="1736" height="171" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738710" />
+    <state width="1736" height="171" key="GridCell.Tab.1.bottom" timestamp="1582985738633">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.1.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880574" />
-    <state width="1736" height="171" key="GridCell.Tab.1.center" timestamp="1582955880574">
+    <state width="1736" height="171" key="GridCell.Tab.1.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738633" />
+    <state width="1736" height="171" key="GridCell.Tab.1.center" timestamp="1582985738633">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.1.center/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880574" />
-    <state width="1736" height="171" key="GridCell.Tab.1.left" timestamp="1582955880573">
+    <state width="1736" height="171" key="GridCell.Tab.1.center/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738633" />
+    <state width="1736" height="171" key="GridCell.Tab.1.left" timestamp="1582985738633">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.1.left/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880573" />
-    <state width="1736" height="171" key="GridCell.Tab.1.right" timestamp="1582955880574">
+    <state width="1736" height="171" key="GridCell.Tab.1.left/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738633" />
+    <state width="1736" height="171" key="GridCell.Tab.1.right" timestamp="1582985738633">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="171" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1582955880574" />
-    <state x="326" y="96" key="SettingsEditor" timestamp="1582792584705">
+    <state width="1736" height="171" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1582985738633" />
+    <state x="326" y="96" key="SettingsEditor" timestamp="1582986012442">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1582792584705" />
+    <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1582986012442" />
     <state x="402" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582798944102">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -168,6 +183,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dula_shopping$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1582955880547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dula_shopping$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1582985738596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

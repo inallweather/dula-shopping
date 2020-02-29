@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block title %}
+    商品类别
+{% endblock %}
+{% block head %}
+    <style>
+        .form-container {
+            width: 500px;
+            margin: 10px auto;
+        }
+    </style>
+{% endblock %}
+{% block main_hader %}
+    <h1>
+        商品类别
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> 商品管理</a></li>
+        <li class="active">类别更新</li>
+    </ol>
+{% endblock %}
+
+{% block main %}
+    <div class="box-header">
+        <h2 class="text-center">商品类别更新</h2>
+    </div>
+    <div class="box-body">
+        <div class="form-container">
+            <form class="form-horizontal" method="post">
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label for="inputname" class="col-sm-2 col-form-label">{{ form.category_name.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.category_name(class_='form-control', placeholder="请输入类别名称",id='inputname')}}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{form.category_code.label}}</label>
+                        <div class="col-sm-10">
+                            {{ form.category_code(class="form-control", id="inputcode", placeholder="请输入类别编码") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.remark.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.remark(class="form-control", placeholder="请输入备注",rows="5") }}
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="text-center">
+                    {{ form.submit_update(class="btn btn-info offset-2", style="width: 120px") }}
+                    <a role="button" class="btn btn-default" href="{{ url_for('admin.cates_view') }}" style="width: 120px;">返回</a>
+                </div>
+                <!-- /.card-footer -->
+            </form>
+        </div>
+    </div>
+{% endblock %}
