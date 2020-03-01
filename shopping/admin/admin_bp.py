@@ -7,5 +7,6 @@
 from flask import Blueprint
 
 admin = Blueprint('admin', __name__, url_prefix='/admin', template_folder='templates')
+login = Blueprint('login', __name__, url_prefix='/login', template_folder='templates')
 
 from .views import *

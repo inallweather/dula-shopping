@@ -4,7 +4,7 @@
 # Author:       liuyonggui
 # Date:         2020/2/27
 # --------------------
-from shopping import db
+from shopping.extension import db
 
 
 class Category(db.Model):

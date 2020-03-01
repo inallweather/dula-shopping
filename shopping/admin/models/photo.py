@@ -4,7 +4,7 @@
 # Author:       liuyonggui
 # Date:         2020/2/27
 # --------------------
-from shopping import db
+from shopping.extension import db
 
 
 class Photo(db.Model):
@@ -19,4 +19,3 @@ class Photo(db.Model):
     remarkd = db.Column(db.String(200))
     # 商品id
     product_id = db.Column(db.Integer, db.ForeignKey('tb_commodity.id'))
-

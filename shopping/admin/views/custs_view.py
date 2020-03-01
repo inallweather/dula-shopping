@@ -9,6 +9,6 @@ from flask import render_template
 from ..admin_bp import admin
 
 
-@admin.route('/cust')
+@admin.route('/customer')
 def custs_view():
     return render_template('customer/index.html')

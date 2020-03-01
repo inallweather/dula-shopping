@@ -2,7 +2,7 @@
 {% block title %}
     订单管理
 {% endblock %}
-{% block main_hader %}
+{% block main_header %}
     <h1>
         订单信息
     </h1>
@@ -12,6 +12,44 @@
     </ol>
 {% endblock %}
 
-{% block main_content %}
-    订单信息列表
+{% block main %}
+     <div class="box-header" style="overflow: hidden;">
+        <form class="form-inline" method="post" action="{{ url_for('admin.cates_view') }}">
+            <div class="form-group">
+                <label class="sr-only" for="cate_name"></label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="cate_name" placeholder="类别名称" name="category_name">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">搜索</button>
+            <a href="{{ url_for('admin.cate_add') }}" class="btn btn-primary pull-right">类别添加</a>
+        </form>
+    </div>
+    <div class="box-body">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th class="text-center">类别名称</th>
+                <th class="text-center">类别编号</th>
+                <th class="text-center">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for category in categories %}
+                <tr>
+                    <td class="text-center">{{ category.category_name }}</td>
+                    <td class="text-center">{{ category.category_code }}</td>
+                    <td class="text-center operator">
+                        <a href="{{ url_for('admin.cate_update',cate_id=category.id) }}">编辑</a>
+                        <a href="{{ url_for('admin.cate_delete',cate_id=category.id) }}">删除</a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td class="text-center" colspan="3">暂无数据</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 {% endblock %}

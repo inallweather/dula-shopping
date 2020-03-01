@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='libs/bootstrap/css/bootstrap.min.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='libs/font-awesome/css/font-awesome.min.css') }}">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='libs/Ionicons/css/ionicons.min.css') }}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='libs/adminlte/css/AdminLTE.min.css') }}">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='libs/adminlte/skins/_all-skins.min.css') }}">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+            background: url("{{ url_for('static',filename='imgs/lgbg.jpeg') }}") no-repeat !important;
+            background-size: 100%;
+        }
+
+        .flash-msg {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            top: -50px;
+            left: calc(50% - 190px);
+            z-index: 999;
+        }
+
+        .flash-msg > div {
+            width: 300px;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body class="login-page">
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul class="flash flash-msg" id="flash">
+            {% for message in messages %}
+                <div class="alert alert-warning" style="text-align: center">
+                    <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                    <strong>{{ message }}</strong></div>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+<div class="login-box">
+    <div class="login-logo">
+        <a href="javascript:return false;"><b>噜啦商品后台</b></a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="login-box-body">
+        <p class="login-box-msg">登录</p>
+
+        <form method="post" action="{{ url_for('login.login_view') }}">
+            {{ form.hidden_tag() }}
+            <div class="form-group has-feedback">
+                {{ form.nickname(class="form-control", placeholder="用户名") }}
+                {#        <input type="email" >#}
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                {{ form.password(class="form-control", placeholder="密码") }}
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="social-auth-links text-center">
+                {{ form.submit(class="btn btn-block btn-social btn-facebook btn-flat",style='text-align: center;') }}
+            </div>
+        </form>
+
+
+    </div>
+    <!-- /.login-box-body -->
+</div>
+<!-- jQuery 3 -->
+<script src="{{ url_for('static',filename='libs/jquery-3.4.1.min.js') }}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{{ url_for('static',filename='libs/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="{{ url_for('static',filename='libs/bootstrap/js/bootstrap.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static',filename='libs/adminlte/js/adminlte.min.js') }}"></script>
+<script>
+    $(function () {
+        setTimeout(function () {
+            $('#flash').hide(1000)
+        }, 2000)
+    })
+</script>
+</body>
+</html>

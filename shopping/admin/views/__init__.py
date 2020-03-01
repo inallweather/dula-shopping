@@ -7,6 +7,7 @@
 
 from . import adminuser_view
 from . import category_view
-from . import customer_view
+from . import custs_view
 from . import order_view
 from . import product_view
+from . import login_view

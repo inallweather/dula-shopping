@@ -22,6 +22,8 @@ class Config:
     # 使用本地库中bootstrap
     BOOTSTRAP_SERVER_LOCAL = True
 
+    WTF_CSRF_ENABLED = False
+    WTF_CSRF_SECRET_KEY = os.urandom(20)
     # 配置文件最大文件上传的大小
     # MAX_CONTENT_LENGTH = 30 * 1024 * 1024
     # UPLOADED_IMAGES_DEST = os.path.join(BASE_DIR, 'app/static/uploads')

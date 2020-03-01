@@ -5,11 +5,12 @@
 # Date:         2020/2/27
 # --------------------
 from flask import render_template, request, redirect, url_for
+from flask_login import login_required
 
+from shopping.extension import db
 from ..admin_bp import admin
 from ..forms.category_form import CategoryForm
 from ..models import Category
-from ... import db
 
 
 @admin.route('/category', methods=['GET', 'POST'])
