@@ -69,12 +69,19 @@
                             {{ form.remark(class="form-control", placeholder="请输入备注",rows="5") }}
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            {{ form.errors }}
+                        </div>
+                    </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="text-center">
                     {{ form.submit_add(class="btn btn-info offset-2", style="width: 120px") }}
                     <a role="button" class="btn btn-default" href="{{ url_for('admin.users_view') }}" style="width: 120px;">返回</a>
                 </div>
+
                 <!-- /.card-footer -->
             </form>
         </div>

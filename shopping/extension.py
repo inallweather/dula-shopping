@@ -10,6 +10,7 @@ from flask_login import LoginManager
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
 
+
 db = SQLAlchemy()
 bootstrap = Bootstrap()
 moment = Moment()

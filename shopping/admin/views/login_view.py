@@ -17,16 +17,18 @@ def login_view():
     form = LoginForm()
     if request.method == 'GET':
         return render_template('login/login.html', form=form)
-    if request.method == 'POST' and form.validate():
+    if request.method == 'POST' and form.validate_on_submit():
         u = User.query.filter_by(nickname=form.nickname.data).first()
         if u is None:
             flash('请确认你的用户名及密码，然后再试')
-        elif u.password == form.password.data:
+            return render_template('login/login.html', form=form)
+        elif u.validator_passwd(form.password.data):
             login_user(u)
             flash('登录成功！')
             return redirect(url_for('admin.cates_view'))
         else:
             flash('请确认你是否注册')
+            return render_template('login/login.html', form=form)
     else:
         flash('登录失败')
         return render_template('login/login.html', form=form)

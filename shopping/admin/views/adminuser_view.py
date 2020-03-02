@@ -24,16 +24,16 @@ def user_add():
         return render_template('sys_user/user_add.html', form=form)
     if request.method == 'POST':
         if form.validate_on_submit():
-            if not form.username.data and not form.nickname.data and not form.password.data:
-                flash('用户名，登录名及密码不能为空！')
-                return render_template('sys_user/user_add.html', form=form)
+            # if not form.username.data and not form.nickname.data and not form.password.data:
+            #     flash('用户名，登录名及密码不能为空！')
+            #     return render_template('sys_user/user_add.html', form=form)
             user = User(username=form.username.data, nickname=form.nickname.data, passwd=form.password.data, active=int(form.active.data), remark=form.remark.data)
             # db.session.add(user)
             # db.session.commit()
             flash('用户添加成功！')
             return redirect(url_for('admin.users_view'))
         else:
-            return '验证不通过'
+            return render_template('sys_user/user_add.html', form=form)
 
 
 @admin.route('/user/update/<int:user_id>', methods=['GET', 'POST'])
