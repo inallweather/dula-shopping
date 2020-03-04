@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/versions/6ba9c5bf69e6_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/base.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/login_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/login_view.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" afterDir="false" />
+>>>>>>> shopping-dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +124,13 @@
       <workItem from="1582868100137" duration="1754000" />
       <workItem from="1582951870762" duration="4386000" />
       <workItem from="1582968166605" duration="10390000" />
+<<<<<<< HEAD
       <workItem from="1583035013919" duration="24744000" />
       <workItem from="1583112107237" duration="2235000" />
+=======
+      <workItem from="1583035013919" duration="24515000" />
+      <workItem from="1583233816900" duration="3242000" />
+>>>>>>> shopping-dev
     </task>
     <servers />
   </component>
@@ -132,6 +145,7 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="539" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1044@0.23.1792.1044" timestamp="1583046885122" />
+<<<<<<< HEAD
     <state width="1736" height="314" key="GridCell.Tab.0.bottom" timestamp="1583110836212">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -164,6 +178,40 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state width="1736" height="314" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583110836212" />
+=======
+    <state width="1736" height="230" key="GridCell.Tab.0.bottom" timestamp="1583280348015">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348015" />
+    <state width="1736" height="230" key="GridCell.Tab.0.center" timestamp="1583280348014">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348014" />
+    <state width="1736" height="230" key="GridCell.Tab.0.left" timestamp="1583280348014">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348013" />
+    <state width="1736" height="230" key="GridCell.Tab.0.right" timestamp="1583280348015">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348015" />
+    <state width="1736" height="230" key="GridCell.Tab.1.bottom" timestamp="1583280348016">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.1.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348016" />
+    <state width="1736" height="230" key="GridCell.Tab.1.center" timestamp="1583280348016">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.1.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348016" />
+    <state width="1736" height="230" key="GridCell.Tab.1.left" timestamp="1583280348015">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.1.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348015" />
+    <state width="1736" height="230" key="GridCell.Tab.1.right" timestamp="1583280348016">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state width="1736" height="230" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348016" />
+>>>>>>> shopping-dev
     <state x="326" y="96" key="SettingsEditor" timestamp="1583038652259">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -185,6 +233,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dula_shopping$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1583108062543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dula_shopping$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1583240818755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

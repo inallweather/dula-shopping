@@ -27,34 +27,29 @@
     <div class="box-body">
         <div class="form-container">
             <form class="form-horizontal" method="post">
+                {{ form.hidden_tag() }}
                 <div class="card-body">
                     <div class="form-group row">
                         <label for="inputname" class="col-sm-2 col-form-label">{{ form.username.label }}</label>
                         <div class="col-sm-10">
-                            {{ form.username(class_='form-control', placeholder="请输入类别名称",id='inputname')}}
+                            {{ form.username(class_='form-control', placeholder="",id='inputname')}}
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputcode" class="col-sm-2 col-form-label">{{form.nickname.label}}</label>
+                        <label for="inputcode1" class="col-sm-2 col-form-label">{{form.nickname.label}}</label>
                         <div class="col-sm-10">
-                            {{ form.nickname(class="form-control", id="inputcode", placeholder="请输入类别编码") }}
+                            {{ form.nickname(class="form-control", id="inputcode1", placeholder="") }}
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="inputcode" class="col-sm-2 col-form-label">{{form.password.label}}</label>
+                        <label for="inputcode2" class="col-sm-2 col-form-label">{{form.password.label}}</label>
                         <div class="col-sm-10">
-                            {{ form.password(class="form-control", id="inputcode", placeholder="请输入类别编码") }}
+                            {{ form.password(class="form-control", id="inputcode2", placeholder="") }}
                         </div>
                     </div>
-{#                    <div class="form-group row">#}
-{#                        <label for="inputcode" class="col-sm-2 col-form-label">{{form.active.label}}</label>#}
-{#                        <div class="col-sm-10">#}
-{#                            {{ form.active(class="form-control", id="inputcode", placeholder="请输入类别编码") }}#}
-{#                        </div>#}
-{#                    </div>#}
                     <div class="form-group row">
-                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.remark.label }}</label>
+                        <label class="col-sm-2 col-form-label">{{ form.remark.label }}</label>
                         <div class="col-sm-10">
                             {{ form.remark(class="form-control", placeholder="请输入备注",rows="5") }}
                         </div>
@@ -62,7 +57,7 @@
                 </div>
                 <!-- /.card-body -->
                 <div class="text-center">
-                    {{ form.submit_add(class="btn btn-info offset-2", style="width: 120px") }}
+                    {{ form.submit_update(class="btn btn-info offset-2", style="width: 120px") }}
                     <a role="button" class="btn btn-default" href="{{ url_for('admin.users_view') }}" style="width: 120px;">返回</a>
                 </div>
                 <!-- /.card-footer -->
