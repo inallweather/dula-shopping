@@ -3,23 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/shopping/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/base.html" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/login_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/login_view.py" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" afterDir="false" />
->>>>>>> shopping-dev
-=======
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
->>>>>>> shopping-dev
-=======
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/login_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/login_view.py" afterDir="false" />
->>>>>>> shopping-dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,21 +123,12 @@
       <workItem from="1582868100137" duration="1754000" />
       <workItem from="1582951870762" duration="4386000" />
       <workItem from="1582968166605" duration="10390000" />
-<<<<<<< HEAD
       <workItem from="1583035013919" duration="24744000" />
       <workItem from="1583112107237" duration="2235000" />
-=======
       <workItem from="1583035013919" duration="24515000" />
       <workItem from="1583233816900" duration="3242000" />
-<<<<<<< HEAD
->>>>>>> shopping-dev
-=======
       <workItem from="1583281418608" duration="1992000" />
-<<<<<<< HEAD
->>>>>>> shopping-dev
-=======
       <workItem from="1583284511279" duration="66000" />
->>>>>>> shopping-dev
     </task>
     <task id="LOCAL-00001" summary="ddd">
       <created>1583281757157</created>
@@ -175,8 +153,6 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="539" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1044@0.23.1792.1044" timestamp="1583046885122" />
-<<<<<<< HEAD
-<<<<<<< HEAD
     <state width="1736" height="314" key="GridCell.Tab.0.bottom" timestamp="1583110836212">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -209,13 +185,10 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state width="1736" height="314" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583110836212" />
-=======
-=======
     <state x="375" y="78" key="CommitChangelistDialog2" timestamp="1583281756986">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="375" y="78" key="CommitChangelistDialog2/0.23.1792.1044@0.23.1792.1044" timestamp="1583281756986" />
->>>>>>> shopping-dev
     <state width="1736" height="230" key="GridCell.Tab.0.bottom" timestamp="1583280348015">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -248,14 +221,6 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state width="1736" height="230" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348016" />
-<<<<<<< HEAD
->>>>>>> shopping-dev
-    <state x="326" y="96" key="SettingsEditor" timestamp="1583038652259">
-=======
-    <state x="326" y="96" key="SettingsEditor" timestamp="1583281863501">
->>>>>>> shopping-dev
-      <screen x="0" y="23" width="1792" height="1044" />
-    </state>
     <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1583281863501" />
     <state x="402" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582798944102">
       <screen x="0" y="23" width="1792" height="1044" />
