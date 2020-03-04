@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/versions/6ba9c5bf69e6_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/shopping/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/base.html" afterDir="false" />
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/login_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/login_view.py" afterDir="false" />
@@ -12,6 +12,9 @@
       <change beforePath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" afterDir="false" />
+>>>>>>> shopping-dev
+=======
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
 >>>>>>> shopping-dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +31,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1YNADuJL0qgKWRLNdprpKLDsJf2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -130,8 +138,20 @@
 =======
       <workItem from="1583035013919" duration="24515000" />
       <workItem from="1583233816900" duration="3242000" />
+<<<<<<< HEAD
+>>>>>>> shopping-dev
+=======
+      <workItem from="1583281418608" duration="1992000" />
 >>>>>>> shopping-dev
     </task>
+    <task id="LOCAL-00001" summary="ddd">
+      <created>1583281757157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583281757157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,12 +159,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ddd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ddd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583046885122">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="539" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1044@0.23.1792.1044" timestamp="1583046885122" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <state width="1736" height="314" key="GridCell.Tab.0.bottom" timestamp="1583110836212">
       <screen x="0" y="23" width="1792" height="1044" />
@@ -179,6 +202,12 @@
     </state>
     <state width="1736" height="314" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583110836212" />
 =======
+=======
+    <state x="375" y="78" key="CommitChangelistDialog2" timestamp="1583281756986">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state x="375" y="78" key="CommitChangelistDialog2/0.23.1792.1044@0.23.1792.1044" timestamp="1583281756986" />
+>>>>>>> shopping-dev
     <state width="1736" height="230" key="GridCell.Tab.0.bottom" timestamp="1583280348015">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
@@ -211,15 +240,23 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state width="1736" height="230" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583280348016" />
+<<<<<<< HEAD
 >>>>>>> shopping-dev
     <state x="326" y="96" key="SettingsEditor" timestamp="1583038652259">
+=======
+    <state x="326" y="96" key="SettingsEditor" timestamp="1583281863501">
+>>>>>>> shopping-dev
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1583038652259" />
+    <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1583281863501" />
     <state x="402" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582798944102">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="402" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1044@0.23.1792.1044" timestamp="1582798944102" />
+    <state x="638" y="451" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583281768916">
+      <screen x="0" y="23" width="1792" height="1044" />
+    </state>
+    <state x="638" y="451" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1044@0.23.1792.1044" timestamp="1583281768916" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
