@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/versions/6ba9c5bf69e6_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/customer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/templates/sys_user/user_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/adminuser_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/admin/views/custs_view.py" afterDir="false" />
-    </list>
+    <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +114,7 @@
       <workItem from="1582968166605" duration="10390000" />
       <workItem from="1583035013919" duration="24515000" />
       <workItem from="1583233816900" duration="3242000" />
+      <workItem from="1583281418608" duration="264000" />
     </task>
     <servers />
   </component>
