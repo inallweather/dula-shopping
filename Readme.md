@@ -29,4 +29,6 @@
 > python3 shopping.py runserver
 >```
 >运行项目
+>
+>查看是否已经改了
 
