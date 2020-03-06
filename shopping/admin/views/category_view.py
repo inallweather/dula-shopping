@@ -14,6 +14,7 @@ from ..models import Category
 
 
 @admin.route('/category', methods=['GET', 'POST'])
+@login_required
 def cates_view():
     form = CategoryForm()
     cate_name = form.category_name.data
@@ -25,6 +26,7 @@ def cates_view():
 
 
 @admin.route('/category/add', methods=['GET', 'POST'])
+@login_required
 def cate_add():
     form = CategoryForm()
     if request.method == 'POST':
@@ -38,6 +40,7 @@ def cate_add():
 
 
 @admin.route('/category/update/<int:cate_id>', methods=['GET', 'POST'])
+@login_required
 def cate_update(cate_id):
     if cate_id is None:
         return redirect(url_for('admin.cates_view'))
@@ -53,6 +56,7 @@ def cate_update(cate_id):
 
 
 @admin.route('/category/delete/<int:cate_id>', methods=['GET', 'POST'])
+@login_required
 def cate_delete(cate_id):
     if cate_id is None:
         return redirect(url_for('admin.cates_view'))

@@ -5,6 +5,7 @@
 # Date:         2020/2/28
 # --------------------
 from flask import render_template, redirect, url_for
+from flask_login import login_required
 
 from shopping.extension import db
 from ..admin_bp import admin
@@ -18,6 +19,7 @@ def custs_view():
 
 
 @admin.route('/customer/delete/<int:cust_id>')
+@login_required
 def cust_delete(cust_id):
     cust = Customer.query.get(cust_id)
     db.session.delete(cust)
