@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b605d91-93fb-4222-a41b-79c1da5ffbe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shopping/static/style/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/static/style/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/web/templates/common/layout01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping/web/templates/common/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/web/templates/common/layout.html" afterDir="false" />
     </list>
@@ -15,6 +18,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,23 +44,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping/web/templates/common" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/category" />
-      <recent name="$PROJECT_DIR$/shopping/admin/views" />
-      <recent name="$PROJECT_DIR$/shopping/admin/templates/customer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shopping/static/style" />
       <recent name="$PROJECT_DIR$/shopping/web" />
       <recent name="$PROJECT_DIR$/shopping/admin" />
       <recent name="$PROJECT_DIR$/shopping/admin/templates" />
       <recent name="$PROJECT_DIR$/shopping/static/libs/bootstrap" />
-      <recent name="$PROJECT_DIR$/shopping/static/libs/adminlte" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shopping/web/templates/common" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/sys_user" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates" />
+      <recent name="$PROJECT_DIR$/shopping/admin/templates/category" />
+      <recent name="$PROJECT_DIR$/shopping/admin/views" />
     </key>
   </component>
   <component name="RunManager">
@@ -129,7 +134,7 @@
       <workItem from="1583298974765" duration="586000" />
       <workItem from="1583455211765" duration="939000" />
       <workItem from="1583540792344" duration="1731000" />
-      <workItem from="1583577151749" duration="14086000" />
+      <workItem from="1583577151749" duration="22868000" />
     </task>
     <task id="LOCAL-00001" summary="ddd">
       <created>1583281757157</created>
@@ -162,38 +167,38 @@
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="375" y="78" key="CommitChangelistDialog2/0.23.1792.1044@0.23.1792.1044" timestamp="1583281756986" />
-    <state width="1736" height="83" key="GridCell.Tab.0.bottom" timestamp="1583644539776">
+    <state width="1736" height="83" key="GridCell.Tab.0.bottom" timestamp="1583655870149">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539776" />
-    <state width="1736" height="83" key="GridCell.Tab.0.center" timestamp="1583644539776">
+    <state width="1736" height="83" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870149" />
+    <state width="1736" height="83" key="GridCell.Tab.0.center" timestamp="1583655870148">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539776" />
-    <state width="1736" height="83" key="GridCell.Tab.0.left" timestamp="1583644539775">
+    <state width="1736" height="83" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870148" />
+    <state width="1736" height="83" key="GridCell.Tab.0.left" timestamp="1583655870147">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539775" />
-    <state width="1736" height="83" key="GridCell.Tab.0.right" timestamp="1583644539776">
+    <state width="1736" height="83" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870147" />
+    <state width="1736" height="83" key="GridCell.Tab.0.right" timestamp="1583655870148">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539776" />
-    <state width="1736" height="83" key="GridCell.Tab.1.bottom" timestamp="1583644539652">
+    <state width="1736" height="83" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870148" />
+    <state width="1736" height="83" key="GridCell.Tab.1.bottom" timestamp="1583655870150">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.1.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539652" />
-    <state width="1736" height="83" key="GridCell.Tab.1.center" timestamp="1583644539651">
+    <state width="1736" height="83" key="GridCell.Tab.1.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870150" />
+    <state width="1736" height="83" key="GridCell.Tab.1.center" timestamp="1583655870150">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.1.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539651" />
-    <state width="1736" height="83" key="GridCell.Tab.1.left" timestamp="1583644539651">
+    <state width="1736" height="83" key="GridCell.Tab.1.center/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870150" />
+    <state width="1736" height="83" key="GridCell.Tab.1.left" timestamp="1583655870149">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.1.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539651" />
-    <state width="1736" height="83" key="GridCell.Tab.1.right" timestamp="1583644539651">
+    <state width="1736" height="83" key="GridCell.Tab.1.left/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870149" />
+    <state width="1736" height="83" key="GridCell.Tab.1.right" timestamp="1583655870150">
       <screen x="0" y="23" width="1792" height="1044" />
     </state>
-    <state width="1736" height="83" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583644539651" />
+    <state width="1736" height="83" key="GridCell.Tab.1.right/0.23.1792.1044@0.23.1792.1044" timestamp="1583655870150" />
     <state x="326" y="96" key="SettingsEditor/0.23.1792.1044@0.23.1792.1044" timestamp="1583281863501" />
     <state x="402" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582798944102">
       <screen x="0" y="23" width="1792" height="1044" />
