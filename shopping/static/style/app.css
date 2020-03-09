@@ -91,6 +91,7 @@ header {
     height: 300px;
     float: left;
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .shop-item:hover {
@@ -141,4 +142,7 @@ header {
     height: 70px;
     line-height: 70px;
     text-align: center;
+}
+.text-price{
+    color: #e4393c;
 }
