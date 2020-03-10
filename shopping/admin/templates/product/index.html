@@ -22,32 +22,42 @@
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">搜索</button>
-            <a href="{{ url_for('admin.cate_add') }}" class="btn btn-primary pull-right">商品添加</a>
+            <a href="{{ url_for('admin.prods_add') }}" class="btn btn-primary pull-right">商品添加</a>
         </form>
     </div>
     <div class="box-body">
         <table class="table table-striped table-bordered table-hover">
             <thead>
             <tr>
-                <th class="text-center">类别名称</th>
-                <th class="text-center">类别编号</th>
+                <th class="text-center">商品名称</th>
+                <th class="text-center">商品编号</th>
+                <th class="text-center">商品规格</th>
+                <th class="text-center">商品型号</th>
+                <th class="text-center">商品品牌</th>
+                <th class="text-center">商品价格</th>
+                <th class="text-center">商品状态</th>
                 <th class="text-center">操作</th>
             </tr>
             </thead>
             <tbody>
-            {% for category in categories %}
+            {% for product in products %}
                 <tr>
-                    <td class="text-center">{{ category.category_name }}</td>
-                    <td class="text-center">{{ category.category_code }}</td>
+                    <td class="text-center">{{ product.product_name }}</td>
+                    <td class="text-center">{{ product.product_no }}</td>
+                    <td class="text-center">{{ product.specification }}</td>
+                    <td class="text-center">{{ product.product_type }}</td>
+                    <td class="text-center">{{ product.brand }}</td>
+                    <td class="text-center">{{ product.price }}</td>
+                    <td class="text-center">{{ product.status }}</td>
                     <td class="text-center operator">
-                        <a href="{{ url_for('admin.cate_update',cate_id=category.id) }}">编辑</a>
-                        <a href="{{ url_for('admin.cate_delete',cate_id=category.id) }}">删除</a>
-                        <a href="{{ url_for('admin.cate_delete',cate_id=category.id) }}">明细</a>
+                        <a href="{{ url_for('admin.prods_update',prod_id=product.id) }}">编辑</a>
+                        <a href="{{ url_for('admin.prods_delete',prod_id=product.id) }}">删除</a>
+                        <a href="{{ url_for('admin.prods_delete',prod_id=product.id) }}">明细</a>
                     </td>
                 </tr>
             {% else %}
                 <tr>
-                    <td class="text-center" colspan="3">暂无数据</td>
+                    <td class="text-center" colspan="8">暂无数据</td>
                 </tr>
             {% endfor %}
             </tbody>

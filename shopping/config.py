@@ -22,6 +22,7 @@ class Config:
     # 使用本地库中bootstrap
     BOOTSTRAP_SERVER_LOCAL = True
 
+    CKEDITOR_ENABLE_CSRF = True
     # 配置文件最大文件上传的大小
     # MAX_CONTENT_LENGTH = 30 * 1024 * 1024
     # UPLOADED_IMAGES_DEST = os.path.join(BASE_DIR, 'app/static/uploads')
@@ -38,6 +39,7 @@ class DevelopmentConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'mysql://root:root@localhost/dulashopping?charset=utf8'
     SEND_FILE_MAX_AGE_DEFAULT = timedelta(seconds=1)
     # WTF_CSRF_ENABLED = False
+
 
 
 class ProductionConfig(Config):

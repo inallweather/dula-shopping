@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{{ ckeditor.load() }}
+{% block title %}
+    商品类别
+{% endblock %}
+{% block head %}
+    <style>
+        .form-container {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        #status {
+            overflow: hidden;
+        }
+
+        #status > li {
+            float: left;
+            margin-right: 3px;
+        }
+
+    </style>
+{% endblock %}
+{% block main_hader %}
+    <h1>
+        商品类别
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> 商品管理</a></li>
+        <li class="active">类别添加</li>
+    </ol>
+{% endblock %}
+
+{% block main %}
+    <div class="box-header">
+        <h2 class="text-center">商品类别添加</h2>
+    </div>
+    <div class="box-body">
+        <div class="form-container">
+            <form class="form-horizontal" method="post" action="{{ url_for('admin.prods_add') }}">
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label for="inputname" class="col-sm-2 col-form-label">{{ form.product_name.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_name(class_='form-control', placeholder="",id='inputname') }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_no.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_no(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_no.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_no(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="status" class="col-sm-2 col-form-label">{{ form.status.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.status(class="form-control") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.price.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.price(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.brand.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.brand(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_address.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_address(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_factory.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_factory(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_address.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_address(class="form-control", id="inputcode", placeholder="") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.product_detail.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.product_detail(class="form-control", placeholder="请输入备注",rows="5") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.specification.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.specification(class="form-control", placeholder="",rows="5") }}
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputcode" class="col-sm-2 col-form-label">{{ form.remark.label }}</label>
+                        <div class="col-sm-10">
+                            {{ form.remark(class="form-control", placeholder="",rows="5") }}
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="text-center">
+                    {{ form.submit_add(class="btn btn-info offset-2", style="width: 120px") }}
+                    <a role="button" class="btn btn-default" href="{{ url_for('admin.prods_view') }}" style="width: 120px;">返回</a>
+                </div>
+                <!-- /.card-footer -->
+            </form>
+        </div>
+    </div>
+{% endblock %}

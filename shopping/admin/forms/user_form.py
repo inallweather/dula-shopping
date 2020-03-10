@@ -13,7 +13,7 @@ class RegisterForm(FlaskForm):
     username = StringField('用户名', validators=[DataRequired(message='请输入用户名'), Length(2, 15, message='用户名在5到15个字符之间')])
     nickname = StringField('登录名', validators=[DataRequired(message='请输入登录名称，最好是英文组合'), Length(3, 15, message='登录名在5到15个字符之间')])
     password = PasswordField('密码', validators=[DataRequired(message='请输入密码'), Length(5, 15, message='密码在5到15个字符之间')])
-    active = RadioField('是否可用', choices=[('1', '激活'), ('0', '禁用')])
+    active = RadioField('是否可用', choices=[('1', '激活'), ('0', '禁用')], default='1')
     remark = TextAreaField('备注')
     submit_add = SubmitField('添加用户')
     submit_update = SubmitField('更新用户')

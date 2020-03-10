@@ -23,7 +23,8 @@ def users_view():
 @admin.route('/user/add', methods=['GET', 'POST'])
 @login_required
 def user_add():
-    pass
+    form = RegisterForm()
+    return render_template('sys_user/user_add.html', **locals())
 
 
 @admin.route('/user/update/<int:user_id>', methods=['GET', 'POST'])
@@ -31,6 +32,7 @@ def user_add():
 def user_update(user_id):
     user = User.query.get(user_id)
     form = RegisterForm(prefix='edit_user', obj=user)
+
     if request.method == 'GET':
         return render_template('sys_user/user_update.html', form=form)
     if request.method == 'POST' and form.validate_on_submit():
