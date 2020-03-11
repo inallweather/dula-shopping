@@ -6,17 +6,17 @@
 # --------------------
 import pymysql
 from flask_bootstrap import Bootstrap
-from flask_ckeditor import CKEditor
 from flask_login import LoginManager
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
+from flask_uploads import UploadSet, IMAGES, configure_uploads
 
 db = SQLAlchemy()
 bootstrap = Bootstrap()
 moment = Moment()
 login_manager = LoginManager()
-ckEditor = CKEditor()
 
+images = UploadSet('images', IMAGES)
 pymysql.install_as_MySQLdb()
 
 
@@ -31,4 +31,5 @@ def init_extension(app):
     login_manager.login_view = 'login.login_view'
     # 设置提示信息,默认为英文提示信息
     login_manager.login_message = '请先登录后在访问'
-    ckEditor.init_app(app)
+    # 上传文件配置
+    configure_uploads(app, images)
